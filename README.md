@@ -6,7 +6,7 @@ How do we know whether a product change actually improves user behavior?
 
 This project explores that question through a simulated A/B test of a digital account-opening journey. I compare an existing experience (Control) with a redesigned experience (Treatment) to determine whether the redesign improves account-opening conversion.
 
-The analysis follows an end-to-end experimentation process — from defining the hypothesis and experiment groups, validating the data, and analyzing the conversion funnel to measuring statistical significance, evaluating the size of the impact, and translating the results into a business decision.
+The analysis follows an end-to-end experimentation process, from defining the hypothesis and experiment groups, validating the data, and analyzing the conversion funnel to measuring statistical significance, evaluating the size of the impact, and translating the results into a business decision.
 
 > **Note:** This project uses synthetic data created for portfolio and interview purposes. It does not represent actual Vanguard or client data.
 
