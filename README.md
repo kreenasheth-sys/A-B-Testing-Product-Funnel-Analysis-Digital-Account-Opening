@@ -1,14 +1,12 @@
-# A/B Testing and Product Funnel Analysis - Digital Account-Opening
-This project analyzes a simulated A/B test for a digital account-opening journey.  The objective is to determine whether a redesigned account-opening journey (Treatment B) improves account-opening conversion compared with the existing journey (Control A).
+# A/B Testing & Product Funnel Analysis — Digital Account Opening
 
-
-### Overview
+## Overview
 
 How do we know whether a product change actually improves user behavior?
 
 This project explores that question through a simulated A/B test of a digital account-opening journey. I compare an existing experience (Control) with a redesigned experience (Treatment) to determine whether the redesign improves account-opening conversion.
 
-The analysis goes beyond simply comparing two conversion rates. It follows an end-to-end experimentation process — starting with defining the hypothesis and experiment groups, validating the data, analyzing the conversion funnel, testing statistical significance, and finally assessing whether the observed improvement is meaningful from a business perspective.
+The analysis follows an end-to-end experimentation process — from defining the hypothesis and experiment groups, validating the data, and analyzing the conversion funnel to measuring statistical significance, evaluating the size of the impact, and translating the results into a business decision.
 
 > **Note:** This project uses synthetic data created for portfolio and interview purposes. It does not represent actual Vanguard or client data.
 
@@ -49,7 +47,7 @@ The redesigned journey increases account-opening conversion.
 
 Because the business question is specifically whether the redesign **improves** conversion, the experiment uses a directional (one-sided) hypothesis.
 
-This distinction matters because an A/B test should be designed around the business question being investigated, rather than interpreting the result after looking at the data.
+Defining the hypothesis before analyzing the results helps ensure that the statistical test is driven by the business question rather than by the outcome observed in the data.
 
 ---
 
@@ -99,6 +97,7 @@ The analysis follows this sequence:
 ## 4. What I Analyze
 
 ### Experiment & Data Quality
+
 - Validate Control/Treatment allocation
 - Check duplicate users
 - Check missing values
@@ -106,11 +105,13 @@ The analysis follows this sequence:
 - Confirm assumptions required for the statistical test
 
 ### Funnel Analysis
+
 - Measure conversion at each stage
 - Identify major drop-off points
 - Compare funnel performance across variants
 
 ### A/B Test
+
 - Calculate Control and Treatment conversion
 - Calculate absolute lift
 - Calculate relative lift
@@ -119,31 +120,14 @@ The analysis follows this sequence:
 - Assess statistical significance
 
 ### Beyond Statistical Significance
+
 - Calculate confidence intervals
 - Evaluate statistical power
 - Consider Type I and Type II error
 - Assess practical significance
-- Compare impact against potential implementation cost
+- Compare potential business impact against implementation cost
 - Analyze performance across user segments
 - Monitor guardrail metrics
-
----
-
-## 5. From Statistical Result to Business Decision
-
-A statistically significant result does not automatically mean a product change should be implemented.
-
-The final analysis therefore asks two separate questions:
-
-**Is the observed difference statistically significant?**
-
-and
-
-**Is the size of the improvement meaningful enough to matter to the business?**
-
-For example, a very small improvement may be statistically significant with a sufficiently large sample, but may not justify the engineering effort or operational cost required to implement the change.
-
-The goal is to connect statistical evidence with the underlying business decision.
 
 ---
 
@@ -192,18 +176,7 @@ Data manipulation and analysis
 
 ## Key Findings
 
-*This section will be updated after completing the analysis.*
-
-The final results will summarize:
-
-- Control vs. Treatment conversion
-- Absolute and relative lift
-- Statistical significance
-- Confidence interval
-- Statistical power
-- Key funnel drop-offs
-- Segment-level differences
-- Business implications
+*Results will be added after completing the analysis.*
 
 ---
 
@@ -213,8 +186,8 @@ The final results will summarize:
 ab-testing-product-analysis/
 │
 ├── data/
-│   ├── vanguard_ab_test_users.csv
-│   ├── vanguard_ab_test_events.csv
+│   ├── experiment_users.csv
+│   ├── funnel_events.csv
 │   └── data_dictionary.csv
 │
 ├── sql/
