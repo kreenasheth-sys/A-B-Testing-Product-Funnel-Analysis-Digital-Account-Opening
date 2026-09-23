@@ -1,0 +1,15 @@
+column,table,meaning
+user_id,experiment_users,Unique synthetic user ID
+assigned_at,experiment_users,Timestamp when user entered the experiment
+variant,experiment_users,"A=control, B=treatment"
+channel,experiment_users,Acquisition/source channel
+device,experiment_users,User device
+age_band,experiment_users,Synthetic age segment
+prior_investor,experiment_users,"1 if prior investor, else 0"
+started_application,experiment_users,1 if application was started
+completed_kyc,experiment_users,1 if KYC was completed
+funded_account,experiment_users,1 if account was funded
+account_opened,experiment_users,1 if account was opened
+initial_assets_usd,experiment_users,Synthetic initial assets for opened accounts
+event_name,funnel_events,Customer journey event
+event_time,funnel_events,Event timestamp
