@@ -120,18 +120,10 @@ Definitions of the fields used across the datasets.
 
 ## Project Structure
 
-```text
-ab-testing-product-analysis/
+A-B-Testing-Product-Funnel-Analysis-Digital-Account-Opening/
 │
-├── data/
-│   ├── experiment_users.csv
-│   ├── funnel_events.csv
-│   └── data_dictionary.csv
-│
-├── sql/
-│   └── ab_test_analysis.sql
-│
-├── notebooks/
-│   └── analysis.ipynb
-│
+├── experiment_users.csv
+├── funnel_events.csv
+├── data_dictionary.csv
+├── ab_test_analysis.sql.ipynb
 └── README.md
