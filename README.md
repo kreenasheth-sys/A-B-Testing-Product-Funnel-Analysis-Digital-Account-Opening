@@ -10,7 +10,7 @@ This project evaluates a simulated A/B test for a digital account-opening journe
 
 The analysis covers the complete experimentation workflow — from experiment design and data validation to funnel analysis, statistical significance and business interpretation.
 
-> **Note:** This project uses synthetic data created for portfolio and interview purposes. It does not represent actual Vanguard or client data.
+> **Note:** This project uses synthetic data created for portfolio and interview purposes.
 
 ---
 
